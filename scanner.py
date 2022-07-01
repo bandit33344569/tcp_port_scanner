@@ -31,7 +31,7 @@ def main():
         #port = [ p for p in range(1, 100)]
         check(ip, port)
     except:
-        print("format error\n example: python scan.py -a 127.0.0.1 -p 21,22,80")
+        print("format error\n example: python scanner.py -a 127.0.0.1 -p 21,22,80")
 
 
 if __name__ == "__main__":
